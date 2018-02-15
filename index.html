@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
-    <link rel="shortcut icon" href="assets/img/favicon.ico">
+    <!-- <link rel="shortcut icon" href="assets/img/favicon.ico"> -->
     <link rel="stylesheet" href="css/main.css">
     <title>Linkedln</title>
   </head>
@@ -12,21 +12,23 @@
     <main class="container-fluid container-login">
       <div class="container">
         <div class="row">
-          <div class="col s12">
+          <div class="col s6 offset-s3 linkedin">
             <h1 class="center-align">
               <i class="fab fa-linkedin"></i>
-              Linked
+              Linkedln
             </h1>
-            <script type="in/Login"></script>
+            <div class="center-align">
+              <script type="in/Login"></script>
+            </div>
           </div>
         </div>
       </div>
   </main>
-    <script type="text/javascript" src="//platform.linkedin.com/in.js">
-      api_key: 86d4zgpke7jwaw
-      authorize: false
-      onLoad: onLinkedInLoad
-    </script>
+  <script type="text/javascript" src="//platform.linkedin.com/in.js">
+    api_key: 86d4zgpke7jwaw
+    authorize: true
+    // onLoad: onLinkedInLoad
+  </script>
     <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
