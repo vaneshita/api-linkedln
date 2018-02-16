@@ -4,26 +4,32 @@
   box-sizing: border-box;
 }
 body {
-  background: linear-gradient(-90deg, aqua, white);
+  background: #283e4a;
 }
 .linkedin {
-  border: 2px solid blue;
+  border: 2px solid #fff;
   border-radius: 6px;
   margin: 20% auto;
-  height: 14em;
 }
 .data-user {
-  border: 2px solid blue;
+  border: 2px solid #fff;
   border-radius: 6px;
   margin: 20% auto;
-  height: 14em;
   padding: 2em;
   line-height: 2em;
 }
 #url {
-  color: blue;
+  color: #fff;
   font-weight: 900;
 }
 #btn {
   margin: auto 10em;
+}
+
+.color-t {
+  color: #f1eded;
+}
+
+p#user, p#headline {
+  color: #fff;
 }

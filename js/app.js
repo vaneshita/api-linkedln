@@ -4,7 +4,7 @@ $(document).ready(function() {
   // Handle the successful return from the API call
   function onSuccess(data) {
     // console.log(data);
-    let name = `${data.firstName}' '${data.lastName}`;
+    let name = `${data.firstName} ${data.lastName}`;
     let headline = data.headline;
     let url = data.siteStandardProfileRequest.url;
     window.localStorage.setItem('user-name', name);
